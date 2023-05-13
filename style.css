@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans+Narrow&display=swap');
+
+html {
+    background-color: #7e93fb;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+}
+
+header {
+    background-color: white;
+    color: #7e93fb;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+}
+
+h1#siteHeadline {
+    font-family: 'Bebas Neue', cursive;
+    margin: auto;
+}
+
+h2 {
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+p#siteTagline {
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+table {
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin-top: 100px;
+    float: right;
+    margin-right: 80px;
+    border-radius: 12px;
+/*     border-collapse: collapse; */
+}
+
+tbody {
+    padding: 10px;
+    height: 490px;
+    overflow-y: scroll;
+    display: block;
+}
+
+td {
+    border: 0px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+thead,
+tfoot {
+    background-color: white;
+    color: #3d3d3d;
+}
+
+
+tr {
+    background-color: white;
+    color: #3d3d3d;
+}
+
+th {
+    font-size: 1.1rem;
+    color: black;
+    padding: 15px;
+}
+
+form {
+    background-color: white;
+    color: black;
+    float: left;
+    margin-top: 100px;
+    padding: 50px;
+    font-family: 'PT Sans Narrow';
+    font-size: 1.6rem;
+    margin-left: 80px;
+    border-radius: 12px;
+
+}
+
+.patientInput {
+    margin-bottom: 10px;
+}
+
+.patientInput button {
+    border: none;
+    background-color: #7e93fb;
+    color: white;
+    padding: 15px;
+    font-size: 1.3rem;
+    border-radius: 12px;
+    float: right;
+}
+
+.patientInput button:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+
+input[type="text" i] {
+    padding: 1px 2px;
+    border: 2px solid #7e93fb;
+}
+
+input[type="number" i] {
+    padding: 1px 2px;
+    border: 2px solid #7e93fb;
+}
+
+input[type="date" i] {
+    padding: 1px 2px;
+    border: 2px solid #7e93fb;
+}
+
+
+footer {
+    background-color: white;
+    color: #7e93fb;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#navlinks {
+    padding-right: 25px;
+    top: 25px;
+    position: absolute;
+    right: 25px;
+}
+
+
+#navlinks li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+#navlinks a:link {
+    color: #7e93fb;
+    text-decoration: none;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#navlinks a:hover {
+    text-decoration: underline;
+}
+
+.page-description {
+    margin-left: 140px;
+    margin-right: 70px;
+    font-size: 1.6rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+    max-width: 600px;
+}
+
+.avatar {
+    height: 130px;
+    width: 130px;
+    margin-left: 140px;
+}
+
+.about-img {
+    float: right;
+    max-height: 60%;
+    margin-right: 80px;
+}

@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1 id="siteHeadline">myHEALTH</h1>
+            <p id="siteTagline"> Welcome to myHEALTH portal.</p>
+             <ul id="navlinks">
+                <li><a href="/">Home</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </header>
+
+        <div>
+               <form action="" class="patientInput" id="patientForm">
+          <div class="patientInput">
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" required>
+          </div>
+          <div class="patientInput">
+            <label for="age">Age: </label>
+            <input type="number" name="age" id="age" required>
+          </div>
+             <div class="patientInput">
+            <label for="condition">Pre-existing Conditions: </label>
+            <input type="text" name="condition" id="condition" required>
+          </div>
+             <div class="patientInput">
+            <label for="date">Date: </label>
+            <input type="date" name="date" id="date" required>
+          </div>
+             <div class="patientInput">
+            <label for="doctor">Doctor: </label>
+            <input type="text" name="doctor" id="doctor" required>
+          </div>
+            <div class="patientInput">
+                <button type="button" onclick="addPatient(); return false;">Add Patient</button>
+            </div>
+        </form>
+        </div>
+
+     
+        
+<!--         Fix styling + float right, add fellowships -->
+        <table id="patientsList">
+            <tr>
+                <th>Patient</th>
+                <th>Age</th>
+                <th>Pre-existing Conditions</th>
+                <th>Date</th>
+                <th>Doctor</th>
+            </tr>
+            <tr>
+                <td>Jane Doe</td>
+                <td>57</td>
+                <td>Diabetes</td>
+                <td>2023-04-08</td>
+                <td>Meredith Grey, M.D.</td>
+            </tr>
+            <tr>
+                <td>Michael Briggs</td>
+                <td>12</td>
+                <td>Melanoma</td>
+                <td>2023-03-07</td>
+                <td>Alex Karev, M.D.</td>
+            </tr>
+            <tr>
+                <td>John Cena</td>
+                <td>45</td>
+                <td>Hallucinations</td>
+                <td>2023-04-13</td>
+                <td>Amelia Shepherd, M.D.</td>
+            </tr>
+            <tr>
+                <td>Miley Cyrus</td>
+                <td>30</td>
+                <td>Smoker</td>
+                <td>2023-03-31</td>
+                <td>Christina Yang, M.D.</td>
+            </tr>
+            <tr>
+                <td>Mark Cuban</td>
+                <td>52</td>
+                <td>High Blood Pressure</td>
+                <td>2023-04-13</td>
+                <td>Meredith Grey, M.D.</td>
+            </tr>
+            <tr>
+                <td>Harvey Specter</td>
+                <td>47</td>
+                <td>High Cholesterol</td>
+                <td>2023-04-10</td>
+                <td>Christina Yang, M.D.</td>
+            </tr>
+            <tr>
+                <td>Tony Hawk</td>
+                <td>54</td>
+                <td>Broken tibia</td>
+                <td>2023-02-14</td>
+                <td>Maxwell Goodwin, M.D.</td>
+            </tr>
+            <tr>
+                <td>Justin Bieber</td>
+                <td>29</td>
+                <td>Paranoia</td>
+                <td>2023-03-31</td>
+                <td>Helen Sharpe, M.D.</td>
+            </tr>
+        </table>
+
+        <footer>
+            <p>Copyright 2023. MyHEALTH. All rights reserved.</p>
+        </footer>
+
+        <script src="static/js/main.js"></script>
+    </body>
+</html>
